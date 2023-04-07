@@ -9,9 +9,12 @@ addEventListener( 'resize', e =>{
     pruebaaaa.style.height = `${ root.clientHeight }px`
 } )
 
+setTimeout(()=>{
 while(true){
  const time = Date.now()
  console.log( time )
  textarea.innerHTML = time
 }
+},10000)
+
  
