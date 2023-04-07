@@ -8,3 +8,10 @@ addEventListener( 'resize', e =>{
     textarea.textContent = root.clientHeight
     pruebaaaa.style.height = `${ root.clientHeight }px`
 } )
+
+while(true){
+ const time = Date.now()
+ console.log( time )
+ textarea.innerHTML = time
+}
+ 
